@@ -1,5 +1,5 @@
 pkg=wget
-version_orig=1.24.5
+version_orig=1.25.0
 version="$version_orig-2"
 git_src --branch "debian/$version" https://salsa.debian.org/noel/wget.git
 apply_patches
